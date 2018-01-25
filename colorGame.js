@@ -7,6 +7,8 @@ var messageDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
 var resetButton = document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
+var infoButton = document.querySelector("#info");
+
 
 init();
 
@@ -57,6 +59,13 @@ function init() {
 resetButton.addEventListener("click",function(){
   reset();
 });
+
+infoButton.addEventListener("click",function() {
+  alert("This game is made so that you can learn about RGB color selector method and use in your CSS hope you enjoy!")
+});
+
+
+
 
 colorDisplay.textContent = pickedColor;
 

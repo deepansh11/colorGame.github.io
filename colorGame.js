@@ -3,7 +3,7 @@ var colors =[];
 var pickedColor;
 var squares = document.querySelectorAll(".square");
 var colorDisplay = document.getElementById("colorDisplay");
-var messageDisplay = document.querySelector("#text");
+var messageDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
 var resetButton = document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
@@ -30,8 +30,7 @@ function init() {
         reset();
     });
   }
-
-    reset();
+  reset();
 }
   function reset(){
     colors = generateRandomColors(numOfSquares);
@@ -53,9 +52,6 @@ function init() {
     }
     h1.style.backgroundColor = "steelblue";
   }
-
-
-
 
 
 resetButton.addEventListener("click",function(){

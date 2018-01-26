@@ -61,7 +61,7 @@ resetButton.addEventListener("click",function(){
 });
 
 infoButton.addEventListener("click",function() {
-  alert("This game is made so that you can learn about RGB color selector method and use in your CSS hope you enjoy!")
+  alert("This game is made so that you can learn about RGB color selector method. The object of this game is for you to guess the combination of the color picked by the webpage, this will help you to learn about RGB colors and it's variety. Hope you enjoy!!")
 });
 
 
